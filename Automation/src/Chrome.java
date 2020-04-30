@@ -16,7 +16,7 @@ public class Chrome {
 		//driver.manage().window().maximize();
 		driver.get("https://www.google.com");
 	
-		
+		driver.close();
 		driver.quit();
 	}
 
