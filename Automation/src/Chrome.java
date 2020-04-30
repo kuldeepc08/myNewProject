@@ -16,6 +16,7 @@ public class Chrome {
 		//driver.manage().window().maximize();
 		driver.get("https://www.google.com");
 		System.out.println("GIt trer");
+		System.out.println("testing");
 	
 		driver.close();
 		driver.quit();
