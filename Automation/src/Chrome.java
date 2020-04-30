@@ -15,6 +15,7 @@ public class Chrome {
 		driver.manage().window().fullscreen();
 		//driver.manage().window().maximize();
 		driver.get("https://www.google.com");
+		System.out.println("GIt trer");
 	
 		driver.close();
 		driver.quit();
